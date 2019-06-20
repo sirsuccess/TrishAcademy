@@ -86,7 +86,7 @@ color: #5eb7ff
 }
 /* end of navbar */
 .section1{
-  background-image: url(../img/thumbnail.jpg);
+  background-image: url("../img/thumbnail.jpg");
   height: 100vh;
   width: 100vw;
   color: white
