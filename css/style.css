@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    border: none;
+    /* border: none; */
     list-style: none;
     font-family: OpenSans;
     color: #000000;
@@ -10,6 +10,9 @@ img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+button{
+  border: none;
 }
 
 .navbar{
@@ -173,8 +176,9 @@ color: #5eb7ff
 /* end of section 3 */
 .section4{
   background-image: url("../img/landing-page-image.svg");
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin-top: 3em;
   
 }
@@ -186,13 +190,14 @@ margin-left: 3em;
 /* padding-bottom: 3em; */
 }
 .section4-card{
-  width: 294px;
+  width: 184px;
   height: 246px;
   border-radius: 12px;
   box-shadow: 0 6px 30px 0 rgba(141, 136, 165, 0.15);
   background-color: var(--white);
   margin: 1em;
-  padding-left: 2em;
+  padding: 0 2em;
+
   /* margin-bottom: 3em; */
   
 }
@@ -219,8 +224,9 @@ margin: 1em 0;
 
 .big-bg-section{
   background-image: url("../img/bg-1.svg");
+  background-position: center;
   /* height: 500px; */
-  margin-top: -5.89em;
+  margin-top: -1em;
   
 }
 .section5{
@@ -342,7 +348,7 @@ margin-top: 1em;
 .testimonial-img{
   background-image: url("../img/pattern-bg.png");
   background-repeat: no-repeat;
-  width: 40%;
+  width: 80%;
 }
 .testimonial-card img{
 position: relative;
@@ -369,4 +375,88 @@ top: -48px;
   /* margin-top: 5em; */
   padding: 10em 0;
   text-align: center;
+}
+/* end of section 11 */
+.section12{
+  display: flex;
+  width: 80%;
+  margin: 3em auto;
+  /* margin-bottom: 3em; */
+  text-align: center;
+}
+.section12-card{
+background-color: #fff;
+
+}
+.top-square{
+  width: 288px;
+  height: 289.2px;
+  box-shadow: 0 1px 0 0 #cccccc;
+  background-color: var(--white);
+  border: 1px solid;
+  
+}
+.section12-line{
+  width: 288px;
+  height: 56.1px;
+  background-color: var(--white);
+  border: 1px solid;
+}
+.yes{
+  width: 21px;
+  height: 17px;
+}
+/* end of section 12 */
+.section13{
+  display: flex;
+  align-items: center;
+}
+.section13-text{
+  margin-right: 15em;
+  margin-left: 2em;
+}
+
+.section13-text button{
+  background-color: #ffffff;
+  color: #2c0fef;
+  width: 128px;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 2px #2c0fef;
+}
+.contact-form{
+
+
+}
+.personal-info{
+  display: flex;
+}
+/* end of section 13 */
+.section14{
+  text-align: center;
+}
+.section14 button{
+  width: 169px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #2c0fef;
+  color: #fff;
+  font-size: 18px;
+}
+footer{
+  width: 70%;
+  margin: 1em auto;
+}
+.footer-items{
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.social-media{
+  display: flex;
+  /* align-content: center; */
+}
+.social-media img{
+  width: 20px;
+  height: 20px;
 }
