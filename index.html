@@ -8,6 +8,8 @@
     <title>Trish Academy</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="stylesheet" href="./css/form-style.css"> -->
 </head>
@@ -15,20 +17,28 @@
 <body>
     <div class="navbar">
         <div class="navleft">
-            <div class="logo">
-                <i class="fas fa-user-graduate"></i>
-                <div class="text">
-                    <span>Trish</span>
-                    <span class="dif-color">Academy</span>
+            <a href="#home">
+                <div class="logo">
+                    <i class="fas fa-user-graduate"></i>
+                    <div class="text">
+                        <span>Trish</span>
+                        <span class="dif-color">Academy</span>
+                    </div>
                 </div>
-            </div>
+            </a>
             <ul>
                 <li>
-                    TEST
+                    <a href="#test">TESTS</a>
                 </li>
-                <li>HOW IT WORKS</li>
-                <li>TESTIMONIAL</li>
-                <li>PRICING</li>
+                <li>
+                    <a href="#how">HOW IT WORKS</a>
+                </li>
+                <li>
+                    <a href="#hear">TESTIMONIAL</a>
+                </li>
+                <li>
+                    <a href="#price">PRICING</a>
+                </li>
             </ul>
         </div>
         <div class="navright">
@@ -41,7 +51,7 @@
         </div>
     </div>
     <!-- end of navbar -->
-    <div class="section1">
+    <div class="section1" id='home'>
         <div class="section1-big-text">
             Take the next IELTS essay with confidence.
         </div>
@@ -57,7 +67,7 @@
             </div>
         </div>
     </div>
-    <div class="section2">
+    <div class="section2" id="test">
         Why You Should Consider Trish
     </div>
     <div class="section3">
@@ -101,6 +111,7 @@
             </div>
         </div>
     </div>
+    <!-- end of section 3 -->
     <div class="section4">
         <div class="section4-left">
             <div class="section4-left-first">
@@ -115,7 +126,6 @@
                 </div>
                 <div class="section4-card">
                     <div class="icon">
-
                         <h1>
                             Writing Test
                         </h1>
@@ -140,7 +150,6 @@
                     <button>TAKE FREE TEST</button>
                 </div>
                 <div class="section4-card">
-
                     <h1>
                         Speaking Test
                     </h1>
@@ -153,13 +162,16 @@
         </div>
 
     </div>
+    <!-- end of section 4 -->
     <div class="big-bg-section">
-        <div class="section5">
+        <!-- computer user background -->
+        <div class="section5" id="how">
             <h1>
                 How It Works
             </h1>
             <p>How our automated system helps you improve your listening, reading and speaking skills.</p>
         </div>
+        <!-- end of section 5 -->
         <div class="section6">
             <div class="section6-card">
                 <div class="section6-img">
@@ -181,7 +193,7 @@
             </div>
             <span class="arror">&#8594;</span>
             <div class="section6-card">
-                <div class="section6-img">
+                <div class="section6-img long-img">
                     <img src="./img/3.png" alt="result">
                 </div>
                 <div class="section6-card-text">
@@ -190,10 +202,11 @@
             </div>
             <hr>
         </div>
+        <!-- end of section 6 -->
         <div class="line">
             <!-- <hr> -->
         </div>
-        <div class="section7">
+        <div class="section7" id="test">
             <h1>
                 Do You Know 75% of Test Takers Fail At Writing?
             </h1>
@@ -221,9 +234,10 @@
             </p>
         </div>
     </div>
+    <!-- end of section 7 -->
     <div class="section8">
         <div class="section8-text">
-            <div class="sectiong8-text-img">
+            <div class="sectiong8-text-img sect8-img2">
                 <img src="./img/online-markers.svg" alt="essay">
             </div>
             <h2>Online Markers</h2>
@@ -240,12 +254,12 @@
             <img src="./img/online-markers.jpg" alt="essay type">
         </div>
     </div>
-    <div class="section8">
+    <div class="section8  ">
         <div class="section8-img">
             <img src="./img/results.jpg" alt="essay type">
         </div>
         <div class="section8-text">
-            <div class="sectiong8-text-img">
+            <div class="sectiong8-text-img sect8-img2">
                 <img src="./img/detailed-results.svg" alt="essay">
             </div>
             <h2>Get Detailed Results</h2>
@@ -259,6 +273,7 @@
             </p>
         </div>
     </div>
+    <!-- end of section 8 -->
     <div class="section9">
         <div class="section9-img">
             <img src="./img/bitmap.png" alt="bitmap">
@@ -278,8 +293,10 @@
             </button>
         </div>
     </div>
+    <!-- end of section 9 -->
     <div class="last-big-bg">
-        <div class="section10">
+        <!-- background for testimonial -->
+        <div class="section10" id="hear">
             <h2>
                 Hear From Our Students
             </h2>
@@ -311,12 +328,12 @@
                         and give me hints for
                         improvements is amazing
                     </div>
-                    <p>Wlilliam Todd </p>
+                    <span>Wlilliam Todd </span>
                     <div class="testimony-location">
                         Barcelona, Spain
                     </div>
                 </div>
-                <div class="testimonial-img">
+                <div class="testimonial-img ">
                     <img src="./img/william.jpg" alt="testimony">
                 </div>
             </div>
@@ -335,9 +352,9 @@
                     </div>
                 </div>
             </div>
-            <button class="view-more">View more testimonials <span class="arror">&#8594;</span></button>
+            <button class="view-more">View more testimonials <span class="arror2">&#8594;</span></button>
         </div>
-        <div class="section11">
+        <div class="section11" id="price">
             <h1>Affordable Pricing</h1>
             <p>Less worth, more value to fit-in your budget</p>
         </div>
@@ -397,9 +414,9 @@
 
                 </div>
             </div>
-            <div class="section12-card">
+            <div class="section12-card gold">
                 <div class="top-square">
-                    <div class="basic-plan">
+                    <div class="gold-plan">
                         Gold Plan
                     </div>
                     “I just need to pass all”
@@ -431,9 +448,9 @@
                     </div>
                 </div>
             </div>
-            <div class="section12-card">
+            <div class="section12-card diamond">
                 <div class="top-square">
-                    <div class="basic-plan">
+                    <div class="diamond-plan">
                         Diamond Plan
                     </div>
                     “I want 8.5 in writing”
@@ -459,7 +476,7 @@
                         <img src="./img/yes-copy.png" alt="">
                     </div>
                 </div>
-                <div class="section12-line">
+                <div class="section12-line two-yes">
                     <div class="yes">
                         <img src="./img/call-support-copy.png" alt="">
                     </div>
@@ -483,40 +500,48 @@
             <p>
                 Leave a message, remember we are swift in response.
             </p>
-            <form>
-                <div class="personal-info">
-                    <div class="name">
-                        FULL NAME <br>
-                        <input type="text" placeholder="Whats your name in full?" form-control>
-                    </div>
-                    <div class="email">
-                        EMAIL<br>
-                        <input type="text" placeholder="Enter email address" form-control>
-                    </div>
-                </div>
-                <div class="subject">
-                    SUBJECT<br>
-                    <input type="text" placeholder="Enter email address" form-control>
-                </div>
-                <div class="textarea">
-                    MESSAGE<br>
-                    <textarea name="mesage" id="" cols="30" rows="10" form-control
-                        placeholder="Leave your message here"></textarea>
-                </div>
+            <div class="small-container">
+                <form class="validateForm" action="">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            FULL NAME <br>
+                            <input type="text" class="form-control" name="name" placeholder="Whats your name in full?"
+                                required>
+                        </div>
 
-                <button>
-                    SEND MESAGE
-                </button>
-            </form>
+                        <div class="col-md-6 form-group">
+                            EMAIL<br>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email address"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        SUBJECT<br>
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        MESSAGE<br>
+                        <textarea class="form-control" name="message" placeholder="Leave your message here"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message <span
+                            class="arror"></span>&#8594;</span></button>
+                </form>
+            </div>
         </div>
     </div>
+    <!-- end of section 13 -->
     <div class="section14">
         <h1>Stay In Touch</h1>
-        SUBSCRIBE TO OUR NEWSLETTER<BR>
-        <input type="text" placeholder="Your email address"><BR>
-        <button>SUBMIT</button>
+        <span>SUBSCRIBE TO OUR NEWSLETTER</span>
+        <div class="form-group">
+            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+        </div>
+        <button class="form-control">SUBMIT</button>
     </div>
-
+    <!-- end of section 14 -->
     <footer>
         <hr>
         <div class="footer-items">
