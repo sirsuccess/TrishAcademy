@@ -80,7 +80,7 @@ color: #5eb7ff
 .text span{
   color: #0584ce
 }
-.dif-color{
+.text .dif-color{
  color: #8ed5ff;
 }
 /* end navleft */
@@ -252,7 +252,8 @@ margin: 1em 0;
 }
 .section5{
   text-align: center;
-  padding-top: 12rem;
+  padding-top: 6rem;
+  margin-top: 6rem;
 }
 .section5 p{
   width: 30%;
@@ -365,10 +366,11 @@ font-size: 20px;
 .last-big-bg{
   background-image: url("../img/bg-2.svg");
   margin-top: -5em;
-  
+  margin-bottom: 1em;
 }
 .section10{
-  padding-top: 15em;
+  margin-top: 7em;
+  padding-top: 7em;
   text-align: center;
 }
 .testimonial-bg{
@@ -429,22 +431,23 @@ top: -48px;
 
 .section11{
   /* margin-top: 5em; */
-  padding: 10em 0;
+  padding-bottom: 7em;
+  padding-top: 5em;
+  margin-top: 5em;
   text-align: center;
 }
 /* end of section 11 */
 .section12{
   display: flex;
   width: 80%;
-  margin: 3em auto;
-  /* margin-bottom: 3em; */
+  margin: 0 auto;
+  margin-top: 3em;
   text-align: center;
-  
+  padding-bottom: 2em;
 }
 
 .section12-card{
 background-color: #fff;
-/* border: 1px solid gray; */
 box-shadow: -1px 1px 5px 0 
 }
 .gold{
@@ -459,7 +462,10 @@ box-shadow: -1px 1px 5px 0
   /* background-color: var(--white); */
   border-bottom: 1px solid gray;
   font-size: 24px;
-  align-content: center;
+  text-align: center;
+  justify-content: center;
+align-items: center;
+
 }
 .top-square button{
   /* width: 159px; */
@@ -482,7 +488,7 @@ box-shadow: -1px 1px 5px 0
   background-color: #4285f4;
 }
 .section12-line{
-  width: 288px;
+  /* width: 288px; */
   height: 56.1px;
   background-color: var(--white);
   border-bottom: 1px solid gray;
@@ -500,20 +506,34 @@ box-shadow: -1px 1px 5px 0
   display: flex;
   justify-content: space-evenly;
 }
+.add-on{
+  margin-left: 7em;
+}
 /* end of section 12 */
+.get-in-touch{
+  width: 50%;
+  float: right;
+  margin-top: 10em;
+  padding-left: 7em;
+}
+.clear{
+  clear: both;
+}
 .section13{
   display: flex;
   align-items: center;
+  /* margin-top: 10em; */
 }
 .section13-text{
-  margin-right: 15em;
-  margin-left: 2em;
+  margin-right: 10em;
+  margin-left: 5em;
+  /* margin-top: -4em; */
 }
 
 .section13-text button{
   background-color: #ffffff;
   color: #2c0fef;
-  width: 128px;
+  /* width: 128px; */
   height: 40px;
   border-radius: 4px;
   border: solid 2px #2c0fef;
@@ -531,6 +551,7 @@ box-shadow: -1px 1px 5px 0
   width: 300px;
   margin: 0 auto;
   margin-top: 10em;
+  margin-bottom: 10em
 }
 .section14 span{
   color:#8d88a5
